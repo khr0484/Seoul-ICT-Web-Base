@@ -22,6 +22,8 @@ text-align: center;
 float: right;
 }
 
+
+
 .section2{
 padding: 100 px;
 height: 400px;
@@ -29,18 +31,30 @@ background: white;
 max-width: 2000px;
 margin: 0 auto;
 text-align: center;
+color: black;
 }
 
+.section2 iframe{
+    width: 33%;
+    height: 80%;
+
+}
 .section3{
 padding: 500 px;
-height: 1250px;
-background: #004170;
+height: 1300px;
+background: white;
 max-width: 2000px;
 background-image: ;
 background-repeat: no-repeat;
 background-size: cover;
 margin: 0 auto;
-color: #fff;
+color: black;
+}
+
+.section3 img{
+    width: 25%;
+    height: 130%;
+    max-width: 2000px;
 }
 
 .article{
@@ -49,7 +63,7 @@ margin-bottom: -12px;
 padding: 20px 26px 0 0;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
-background: #E5254E;
+background: #161C2D;
 color: white;
 text-align: center;
 }
@@ -100,4 +114,10 @@ text-align: center;
 
 .footer_logo{
 text-align: right;
+}
+
+.section3 button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
 }
