@@ -1,0 +1,18 @@
+nav {
+    background-color: tomato ;
+    width: 100%; /* 네비게이션 바를 화면 가로 폭에 맞게 확장 */
+    height: 100px;
+    display: flex; /* 컨테이너 내부 아이템을 가로로 정렬 */
+    align-items: center; /* 수직 정렬을 위해 아이템 가운데 정렬 */
+    padding-left: 40px; /* 왼쪽 패딩을 추가하여 내용과의 간격 확보 */
+   
+  }
+.nav-link{
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px; color: white;
+  color: #132257;
+}
+.nav-link.active{
+  color: white !important;
+}

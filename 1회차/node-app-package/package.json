@@ -1,0 +1,18 @@
+{
+  "name": "app-package",
+  "version": "1.0.0",
+  "description": "노드 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "김홍래",
+  "license": "MIT",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
+}
